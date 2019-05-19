@@ -1,0 +1,58 @@
+button, div, p, a, span
+  font-family: 'Montserrat', sans-serif
+  
+header
+  background-color: #424242
+  padding: 10px
+  
+.account
+  transition: .2s ease-in-out
+  
+.account:hover
+  opacity: .5
+  transition: .2s ease-in-out
+  
+.account-text
+  color: white
+  margin-left: 5px
+  font-size: 13px
+  line-height: 90%
+  font-weight: normal
+  
+.button-post
+  background-color: #28E27B
+  border: none
+  color: white
+  font-weight: bold
+  margin-left: 35px
+  width: 210px
+  height: 40px
+  transition: .2s ease-in-out
+  &:hover
+    box-shadow: #b3d4fc .7px .7px .7px .7px
+    transition: .2s ease-in-out
+  &:active
+    box-shadow: none
+  &:before
+    content: url(src/img/plus-button.png)
+    
+.brand-logo-ik:hover
+  .ik
+    transform: rotate(90deg)
+    margin-left: 5px
+    transition: .4s ease-in-out
+    
+.ik
+  transition: .4s ease-in-out
+
+.brand-logo-ik
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
+  
+@keyframes text-focus-in
+  0%
+    filter: blur(12px)
+    opacity: 0
+
+  100%
+    filter: blur(0px)
+    opacity: 1

@@ -1,0 +1,26 @@
+{
+  "name": "domik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBordan/DOMIK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IBordan/DOMIK/issues"
+  },
+  "homepage": "https://github.com/IBordan/DOMIK#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-htmlhint": "^2.2.1",
+    "html-validator": "^4.0.2"
+  }
+}
