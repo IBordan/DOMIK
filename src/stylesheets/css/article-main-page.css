@@ -1,0 +1,69 @@
+@charset "UTF-8";
+article {
+  width: 100%;
+  min-height: 750px;
+  background-color: #E5E5E5;
+  padding: 30px; }
+
+.ads {
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 50px;
+  margin-bottom: 60px;
+  width: 1160px; }
+
+.option-title {
+  font-size: 16px;
+  color: #858585;
+  line-height: 200%;
+  font-weight: 500; }
+
+select {
+  height: 35px;
+  width: 175px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border: none;
+  color: #FF7474;
+  opacity: 0.8; }
+
+.option {
+  margin: 0 20px 0 20px; }
+
+.button-option-add {
+  width: 176px;
+  height: 45px;
+  margin-top: 35px;
+  background-color: #FF7474;
+  color: white;
+  font-weight: bold;
+  border: none; }
+
+.post-div {
+  width: 470px;
+  height: 200px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 10px; }
+
+.post-info {
+  padding: 30px; }
+
+.post-info-price {
+  font-size: 20px; }
+
+.post-info-price:before {
+  content: "₴"; }
+
+.post-info-price:after {
+  content: " / ночь"; }
+
+.post-info-title, .post-info-desk, .post-info-price {
+  line-height: 200%;
+  color: #858585; }
+
+.h1-posts {
+  margin-bottom: 20px; }
+
+.post-link:hover {
+  text-decoration: none; }
+  .post-link:hover .post-info-title, .post-link:hover .post-info-price, .post-link:hover .post-info-desk {
+    color: #28E27B; }
