@@ -1,0 +1,237 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Place favicon.ico in the root directory -->
+	<!-- Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="../stylesheets/css/normalize.css">
+	<link rel="stylesheet" href="../stylesheets/css/normalize-2.css">
+	<link rel="stylesheet" href="../stylesheets/css/header.css">
+	<link rel="stylesheet" href="../stylesheets/css/article-posting-page.css">
+	<link rel="stylesheet" href="../stylesheets/css/footer.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<header class="container-fluid">
+	<div class="row">
+		<div class="col-5 offset-1">
+			<div class="navbar-brand offset-4 brand-logo-ik">
+				<a href="../../index.html"><img src="../img/svg/DOM.svg" alt=""><img src="../img/svg/IK.svg" alt="" class="ik"></a>
+			</div>
+		</div>
+		<div class="col-5 offset-1 d-flex align-items-center">
+			<div class="post">
+				<button class="button-post"><a href="posting-page.html" class="link-authorization">Подать объявление</a></button>
+			</div>
+		</div>
+	</div>
+</header>
+<article class="container-fluid d-flex justify-content-center align-items-center flex-column">
+	<div class="h1-posts">
+		<h1>Подать объявление</h1>
+	</div>
+	<div class="steps-div d-inline-flex">
+		<div class="steps d-inline-flex">
+			<div class="step-box d-inline-flex">
+				<div class="step-num d-flex align-items-center">
+					<span><img src="../img/svg/1.svg" alt=""></span>
+				</div>
+				<div class="step-title">
+                     <span>
+                     Выбрать тип </br> жилья
+                     </span>
+				</div>
+			</div>
+			<div class="arrow-box d-flex align-items-center">
+				<div class="arrow">
+					<img src="../img/svg/Arrow.svg" alt="">
+				</div>
+			</div>
+			<div class="step-box d-inline-flex">
+				<div class="step-num d-flex align-items-center">
+					<span><img src="../img/svg/2.svg" alt=""></span>
+				</div>
+				<div class="step-title">
+                     <span>
+                     Заполнить</br> форму
+                     </span>
+				</div>
+			</div>
+			<div class="arrow-box d-flex align-items-center">
+				<div class="arrow">
+					<img src="../img/svg/Arrow.svg" alt="">
+				</div>
+			</div>
+			<div class="step-box d-inline-flex">
+				<div class="step-num d-flex align-items-center">
+					<span><img src="../img/svg/3.svg" alt=""></span>
+				</div>
+				<div class="step-title">
+                     <span>
+                     Разместить</br> объявление
+                     </span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ads d-flex">
+		<div class="ads-box d-flex flex-column">
+			<form class="d-flex flex-column" method="post" enctype="multipart/form-data" action="../php/form.php">
+				<div class="option option-div-title d-flex flex-column">
+					<div class="option-title">
+						<span>Заголовок*</span>
+					</div>
+					<div class="d-flex title-input">
+						<input type="text" class="title-input" name="title" id="title">
+					</div>
+				</div>
+				<div class="option option-div-title d-flex flex-column">
+					<div class="option-title">
+						<span>Цена*</span>
+					</div>
+					<div class="d-inline-flex price-div">
+						<input type="text" class="price-input" name="price" id="price">
+						<div class="grn-div d-flex align-items-center">
+							<span>грн</span>
+						</div>
+					</div>
+				</div>
+				<div class="option d-inline-flex">
+					<div class="option-locate">
+						<div class="option-title">
+							<span>Область*</span>
+						</div>
+						<div class="locate-div">
+							<input type="text" class="locate-input" name="location" id="location">
+						</div>
+					</div>
+					<div class="option-locate">
+						<div class="option-title">
+							<span>Город*</span>
+						</div>
+						<div class="locate-div">
+							<input type="text" class="locate-input" name="city" id="city">
+						</div>
+					</div>
+				</div>
+				<div class="option d-inline-flex">
+					<div class="option-locate">
+						<div class="option-title">
+							<span>Площадь</span>
+						</div>
+						<div class="locate-div">
+							<input type="text" class="locate-input" name="square" id="square">
+						</div>
+					</div>
+					<div class="option-locate">
+						<div class="option-title">
+							<span>Этажность</span>
+						</div>
+						<div class="locate-div">
+							<select name="floors" id="floors">
+								<option value="">1</option>
+								<option value="">2</option>
+								<option value="">3</option>
+								<option value="">4</option>
+								<option value="">5</option>
+								<option value="">6</option>
+								<option value="">7</option>
+								<option value="">8</option>
+								<option value="">9</option>
+							</select>
+						</div>
+					</div>
+					<div class="option-locate">
+						<div class="option-title">
+							<span>Кол-во комнат</span>
+						</div>
+						<div class="locate-div">
+							<select name="room" id="room">
+								<option value="">1 комната</option>
+								<option value="">2 комнаты</option>
+								<option value="">3 комнаты</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="option-locate option">
+					<div class="option-title">
+						<span>Описание*</span>
+					</div>
+					<div class="locate-div">
+						<textarea name="desk" id="desk" cols="65" rows="5"></textarea>
+					</div>
+				</div>
+				<div class="option">
+					<div class="option-locate">
+						<div class="option-title">
+							<span>Фотография</span>
+						</div>
+						<div class="locate-div d-flex d-inline-flex">
+							<label for="uploadbtn" class="uploadButton">Загрузить фотографию</label>
+							<input style="opacity: 0; z-index: -1;" type="file" name="uploadbtn" id="uploadbtn">
+						</div>
+					</div>
+				</div>
+				<div class="option">
+					<div class="option-locate d-flex justify-content-end">
+						<button type="submit" class="post-submit" id="add-post">Подать объявление</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</article>
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-5 offset-1">
+			<div class="footer-text">
+				<p>Сервис объявлений № 1 в Украине Все онлайн-объявления Украины на dom.ik - здесь вы найдете то, что искали! Нажав на кнопку "Подать объявление", вы сможете разместить объявление на любую тематику легко и быстро. С помощью сервиса namesite вы сможете купить или продать из рук в руки практически все, что угодно.</p>
+			</div>
+			<div class="navbar-brand footer-brand-logo"><img src="../img/svg/logo.svg" alt=""></div>
+			<div class="ahtung">
+                  <span>
+                  © Все права защищены
+                  </span>
+			</div>
+		</div>
+		<div class="nav-footer col-3 d-flex align-items-center justify-content-center">
+			<div class="links d-flex">
+			  <a href="../../index.html" class="footer-nav">Главная</a>
+			  <a href="../../src/content/posting-page.html" class="footer-nav">Объявления</a>
+			</div>
+		</div>
+		<div class="footer-social col-3 d-flex justify-content-center">
+			<div class="socials d-inline-flex align-items-center">
+				<div class="social"><a href="https://www.instagram.com/dana_daniellaa/" target="_blank"><img src="../img/svg/insta.svg" alt=""></a></div>
+				<div class="social"><a href="https://t.me/IBordan" target="_blank"><img src="../img/svg/telegram.svg" alt=""></a></div>
+			</div>
+		</div>
+	</div>
+	</div>
+</footer>
+<script src="../js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+	window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+	ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>

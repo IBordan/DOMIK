@@ -2,7 +2,7 @@ article
   width: 100%
   min-height: 750px
   background-color: #E5E5E5
-  padding: 100px
+  padding: 40px
   
 .ads
   background-color: white
@@ -55,7 +55,7 @@ select
 .post-info-price:after
   content: ' / ночь'
   
-.post-info-title, .post-info-desk, .post-info-price
+.post-info-title, .post-info-desk, .post-info-price, .post-info-locate, .post-info-city, .square, .floor, .room
   line-height: 200%
   color: #858585
   
@@ -64,5 +64,19 @@ select
   
 .post-link:hover
   text-decoration: none
-  .post-info-title, .post-info-price, .post-info-desk
+  .post-info-title, .post-info-price, .post-info-desk, .post-info-locate, .post-info-city, .square, .floor, .room
     color: #28E27B
+    
+div.account-text a
+  color: white
+  &:hover
+    text-decoration: none
+    
+.square>span:after
+  content: 'м'
+  
+.floor>span:after
+  content: ' этаж'
+  
+.room>span:after
+  content: ' комнаты'
