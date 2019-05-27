@@ -63,3 +63,28 @@ textarea {
 
 .option {
   margin-top: 25px; }
+
+.file-input {
+  width: 300px; }
+
+.uploadButton {
+  background-color: #FF7474;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  cursor: pointer; }
+
+.post-submit {
+  background-color: #28E27B;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 35px;
+  width: 210px;
+  height: 40px;
+  transition: 0.2s ease-in-out; }
+  .post-submit:hover {
+    background-color: white;
+    color: #28E27B;
+    transition: 0.5s ease-in-out; }

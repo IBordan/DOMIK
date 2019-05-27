@@ -98,7 +98,7 @@
   </div>
   <div class="ads d-flex">
     <div class="ads-box d-flex flex-column">
-      <form class="d-flex flex-column">
+      <form class="d-flex flex-column" method="post" enctype="multipart/form-data">
         <div class="option option-div-title d-flex flex-column">
           <div class="option-title">
             <span>Заголовок*</span>
@@ -182,6 +182,22 @@
           </div>
           <div class="locate-div">
             <textarea name="" id="" cols="65" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="option">
+          <div class="option-locate">
+            <div class="option-title">
+              <span>Фотография</span>
+            </div>
+            <div class="locate-div d-flex d-inline-flex">
+              <label for="uploadbtn" class="uploadButton">Загрузить фотографию</label>
+              <input style="opacity: 0; z-index: -1;" type="file" name="upload" id="uploadbtn">
+            </div>
+          </div>
+        </div>
+        <div class="option">
+          <div class="option-locate d-flex justify-content-end">
+            <button type="submit" class="post-submit">Подать объявление</button>
           </div>
         </div>
       </form>
