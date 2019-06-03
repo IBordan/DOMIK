@@ -3,7 +3,7 @@ article {
   width: 100%;
   min-height: 750px;
   background-color: #E5E5E5;
-  padding: 30px; }
+  padding: 40px; }
 
 .ads {
   background-color: white;
@@ -67,3 +67,8 @@ select {
   text-decoration: none; }
   .post-link:hover .post-info-title, .post-link:hover .post-info-price, .post-link:hover .post-info-desk {
     color: #28E27B; }
+
+div.account-text a {
+  color: white; }
+  div.account-text a:hover {
+    text-decoration: none; }
